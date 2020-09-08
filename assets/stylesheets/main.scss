@@ -22,8 +22,8 @@ body {
     background: #fff;
     box-shadow: 10px 10px 8px $light-gray;
     display: flex;
-    justify-content: space-around;
-    padding: 10px;
+    justify-content: space-between;
+    padding: 20px;
 }
 
 .gray-font {
@@ -40,4 +40,22 @@ body {
 
 .far {
     color: $gray;
+}
+
+.main {
+    margin-top: 20px;
+}
+
+.card {
+    padding: 20px;
+    background: #fff;
+    box-shadow: 10px 10px 8px $light-gray;
+}
+
+.account-pic {
+    display: flex;
+    align-items: center;
+    img {
+        width: 100px;
+    }
 }

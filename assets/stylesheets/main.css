@@ -14,8 +14,8 @@ body {
   background: #fff;
   box-shadow: 10px 10px 8px #f9f9f9;
   display: flex;
-  justify-content: space-around;
-  padding: 10px;
+  justify-content: space-between;
+  padding: 20px;
 }
 
 .gray-font {
@@ -32,6 +32,24 @@ body {
 
 .far {
   color: #414464;
+}
+
+.main {
+  margin-top: 20px;
+}
+
+.card {
+  padding: 20px;
+  background: #fff;
+  box-shadow: 10px 10px 8px #f9f9f9;
+}
+
+.account-pic {
+  display: flex;
+  align-items: center;
+}
+.account-pic img {
+  width: 100px;
 }
 
 /*# sourceMappingURL=main.css.map */
