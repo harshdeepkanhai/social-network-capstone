@@ -14,7 +14,7 @@ body {
   background: #fff;
   box-shadow: 10px 10px 8px #f9f9f9;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   padding: 20px;
 }
 
@@ -35,7 +35,9 @@ body {
 }
 
 .main {
+  display: flex;
   margin-top: 20px;
+  justify-content: space-around;
 }
 
 .card {
@@ -50,6 +52,122 @@ body {
 }
 .account-pic img {
   width: 100px;
+}
+
+.pic-gallery {
+  display: flex;
+  justify-content: space-around;
+}
+
+.pic-thumb {
+  width: 95px;
+  border-radius: 10px;
+}
+
+.main-pic {
+  position: relative;
+  margin: 10px 10px;
+}
+
+.main-pic img {
+  border-radius: 20px;
+}
+
+.info-top-left {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+.fa-location-arrow {
+  color: #fff;
+}
+
+.distance {
+  color: #fff;
+}
+
+.info-top-right {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.info-top-left {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+.fa-location-arrow {
+  color: #fff;
+}
+
+.distance {
+  color: #fff;
+}
+
+.info-top-right {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.square {
+  width: 20px;
+  height: 20px;
+  background: #7b7875;
+  margin: 10px;
+  border-radius: 5px;
+}
+
+.square:nth-of-type(3) {
+  background: #f0916e;
+}
+
+.bottom-buttons {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: absolute;
+  width: 100%;
+  bottom: 10px;
+  left: 10px;
+  color: #414464;
+}
+
+.btn {
+  background: white;
+  border: none;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 5px #414464;
+}
+
+.mid-btn {
+  display: flex;
+  justify-content: space-between;
+}
+.mid-btn .btn {
+  margin: 20px;
+  color: white;
+  background: #4e50b8;
+  border: none;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 5px #414464;
+}
+.mid-btn .btn:nth-of-type(2) {
+  background: #f0916e;
+}
+
+.col-left,
+.col-right {
+  flex: 1;
+}
+
+.col-middle {
+  flex: 2;
 }
 
 /*# sourceMappingURL=main.css.map */
