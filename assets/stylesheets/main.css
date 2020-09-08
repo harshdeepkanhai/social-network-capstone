@@ -1,3 +1,37 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
 
+body {
+  background: #f9f9f9;
+  font: 100% "Open Sans", sans-serif;
+}
+
+.header {
+  align-items: center;
+  background: #fff;
+  box-shadow: 10px 10px 8px #f9f9f9;
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+}
+
+.gray-font {
+  color: #414464;
+}
+
+.purple {
+  color: #4e50b8;
+}
+
+.orange {
+  color: #f0916e;
+}
+
+.far {
+  color: #414464;
+}
 
 /*# sourceMappingURL=main.css.map */

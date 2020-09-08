@@ -3,5 +3,41 @@
 $purple: #4e50b8;
 $orange: #f0916e;
 $gray: #414464;
-$light-gray: #fafafa;
+$light-gray: #f9f9f9;
 $font-stack: 'Open Sans', sans-serif;
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: $light-gray;
+    font: 100% $font-stack;
+}
+
+.header {
+    align-items: center;
+    background: #fff;
+    box-shadow: 10px 10px 8px $light-gray;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+.gray-font {
+    color: $gray;
+}
+
+.purple {
+    color: $purple;
+}
+
+.orange {
+    color: $orange;
+}
+
+.far {
+    color: $gray;
+}
