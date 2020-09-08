@@ -22,8 +22,8 @@ body {
     background: #fff;
     box-shadow: 10px 10px 8px $light-gray;
     display: flex;
-    justify-content: space-around;
-    padding: 20px;
+    justify-content: space-between;
+    padding: 20px 80px;
 }
 
 
@@ -31,11 +31,11 @@ body {
     color: $gray;
 }
 
-.purple {
+.purple-font {
     color: $purple;
 }
 
-.orange {
+.orange-font {
     color: $orange;
 }
 
@@ -57,6 +57,7 @@ body {
 
 .account-pic {
     display: flex;
+    justify-content: space-around;
     align-items: center;
     img {
         width: 100px;
@@ -67,6 +68,38 @@ body {
     display: flex;
     justify-content: space-around;
 }
+
+.menu {
+    li {
+        list-style: none;
+        margin: 20px 60px;
+        font-weight: bold;
+        color: #948b8b;
+    }
+}
+
+.extra {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.num {
+    background: #ced8e2;
+    border-radius: 15px;
+    text-align: center;
+    padding: 5px 10px;
+}
+
+
+.num-orange {
+    background: $orange;
+    color: #fff;
+    border-radius: 5px;
+    text-align: center;
+    padding: 5px 10px;
+}
+
 
 .pic-thumb {
     width: 95px;
