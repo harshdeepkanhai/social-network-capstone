@@ -101,6 +101,22 @@ body {
   color: #ffffff;
 }
 
+.menu {
+  margin-top: 20px;
+  color: #cecece;
+}
+.menu ul li {
+  margin-top: 10px;
+  font-size: 1.2em;
+  list-style: none;
+}
+
+.menu-link {
+  text-decoration: none;
+  color: #cecece;
+  font-weight: bold;
+}
+
 @media (max-width: 1024px) {
   .col-sm-4 {
     display: flex;
