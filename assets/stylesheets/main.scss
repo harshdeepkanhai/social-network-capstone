@@ -140,6 +140,48 @@ body {
     font-weight: bold;
 }
 
+// Mid Column
+.img-gallery {
+    margin: 20px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .fa-ellipsis-v {
+        color: #d0d0d0;
+        margin-left: 10px;
+    }
+    img {
+        margin-left: 20px;
+        width: 5%;
+        border-radius: 5px;
+    }
+}
+
+.img-selected {
+    display: flex;
+  position: relative;
+    img {
+        width: 10%;
+        border-radius: 5px;
+    }
+    .fa-times-circle {
+        color: $orange;
+        align-self: center;
+        margin-left: -8px;
+        background: white;
+    }
+}
+
+.main-img-container {
+    margin-top: 10px;
+    width: 50%;
+}
+
+.main-img {
+    border-radius: 10px;
+    width: 100%;
+    height: 50%;
+}
 
 
 // Right column

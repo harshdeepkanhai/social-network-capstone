@@ -124,6 +124,52 @@ body {
   font-weight: bold;
 }
 
+.img-gallery {
+  margin: 20px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.img-gallery .fa-ellipsis-v {
+  color: #d0d0d0;
+  margin-left: 10px;
+}
+
+.img-gallery img {
+  margin-left: 20px;
+  width: 5%;
+  border-radius: 5px;
+}
+
+.img-selected {
+  display: flex;
+  position: relative;
+}
+
+.img-selected img {
+  width: 10%;
+  border-radius: 5px;
+}
+
+.img-selected .fa-times-circle {
+  color: #f0916e;
+  align-self: center;
+  margin-left: -8px;
+  background: white;
+}
+
+.main-img-container {
+  margin-top: 10px;
+  width: 50%;
+}
+
+.main-img {
+  border-radius: 10px;
+  width: 100%;
+  height: 50%;
+}
+
 .right-col {
   width: 300px;
 }
@@ -251,6 +297,7 @@ body {
     display: none;
   }
 }
+/*# sourceMappingURL=main.css.map */
 /*# sourceMappingURL=main.css.map */
 
 /*# sourceMappingURL=main.css.map */
