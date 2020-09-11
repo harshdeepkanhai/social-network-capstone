@@ -19,6 +19,12 @@ body {
     font-family: $font-stack;
 }
 
+.flex-center {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 
 // Navbar
 .header {
@@ -134,12 +140,130 @@ body {
     font-weight: bold;
 }
 
+
+
+// Right column
+.right-col {
+    width: 300px;
+}
+
+.patron {
+    margin-top: 20px;
+    padding: 10px;
+    background: #ffffff;
+    border-radius: 5px;
+    .king-patron {
+        display: flex;
+        img {
+            margin: 10px;
+            width: 50px;
+        }
+        .text {
+            h1 {
+                color: #c3c3c3;
+            }
+            p {
+                color: #e0e0e0;
+                font-size: 0.8em;
+            }
+        }
+    }
+}
+
+.btn-purchase {
+    margin-top: 10px;
+    width: 100%;
+    background: $purple;
+    border-radius: 5px;
+    color: #fff;
+    border: none;
+    padding: 10px;
+}
+
+.search-filter {
+    border-radius: 5px;
+    margin-top: 20px;
+    padding: 20px;
+    background: #ffffff;
+    display: flex;
+    justify-content: space-between;
+
+    .fa-sliders-h {
+        color: $purple;
+    }
+}
+
+.user-info-big {
+    border-radius: 5px;
+    margin-top: 20px;
+    padding: 20px;
+    background: #ffffff;
+}
+
+.small {
+    font-size: 0.8em;
+    color: #d0d0d0;
+}
+
+.fa-circle {
+    color: green;
+    font-size: 0.8em;
+}
+.line {
+    height: 2px;
+    background: #d0d0d0;
+}
+
+
+.user-info-detail {
+    border-radius: 0 5px;
+    padding: 20px;
+    background: #ffffff;
+}
+
+.btn-profile {
+    margin: 10px 0;
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    color: #414464;
+    font-weight: bold;
+    background: #d0d0d0;
+}
+
+.gift {
+    border-radius: 0 5px;
+    padding: 20px;
+    background: #ffffff;
+    display: flex;
+    img {
+        width: 50px;
+        height: 50px;
+        margin: 5px;
+    }
+    .text {
+        h3 {
+            font-weight: bolder;
+            font-size: 1em;
+        }
+        p {
+            font-size: 0.8em;
+            color: #d0d0d0;
+        }
+    }
+}
+
 @media (max-width: 1024px) {
     //navbar
      .col-sm-4 {
          display: flex;
      } 
     .col-4 {
+        display: none;
+    }
+
+    .left-col, .right-col {
         display: none;
     }
 }
