@@ -11,10 +11,10 @@ body {
 
 .header {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   background: white;
   align-items: center;
-  padding: 20px 0;
+  padding: 20px 80px;
   width: 100%;
 }
 
@@ -48,6 +48,55 @@ body {
   color: #f0916e;
 }
 
+.main {
+  display: flex;
+  justify-content: space-between;
+}
+
+.col-left-user {
+  margin-top: 20px;
+  margin-left: 80px;
+}
+
+.user-profile {
+  display: flex;
+  align-items: center;
+  background: #fff;
+  padding: 20px;
+}
+
+.user-profile-img {
+  width: 50px;
+  border-radius: 5px;
+  margin-right: 20px;
+}
+
+.fa-cog {
+  margin-left: 20px;
+  color: #c3c4ce;
+}
+
+.user-extra-info {
+  padding: 0 10px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.fa-heart {
+  color: #f0916e;
+}
+
+.btn-premium {
+  margin-left: 40px;
+  border: none;
+  padding: 10px;
+  width: 70%;
+  border-radius: 5px;
+  background: #4e50b8;
+  color: #ffffff;
+}
+
 @media (max-width: 1024px) {
   .col-sm-4 {
     display: flex;
@@ -55,6 +104,14 @@ body {
 
   .col-4 {
     display: none;
+  }
+
+  .col-left-user {
+    display: none;
+  }
+
+  .header {
+    padding: 20px;
   }
 }
 .chat-item {
@@ -124,5 +181,21 @@ body {
     display: flex;
   }
 }
+/*# sourceMappingURL=chat.css.map */
+/*# sourceMappingURL=chat.css.map */
+/*# sourceMappingURL=chat.css.map */
+/*# sourceMappingURL=chat.css.map */
+/*# sourceMappingURL=chat.css.map */
+/*# sourceMappingURL=chat.css.map */
+/*# sourceMappingURL=chat.css.map */
+/*# sourceMappingURL=chat.css.map */
+/*# sourceMappingURL=chat.css.map */
+/*# sourceMappingURL=chat.css.map */
+/*# sourceMappingURL=chat.css.map */
+/*# sourceMappingURL=chat.css.map */
+/*# sourceMappingURL=chat.css.map */
+/*# sourceMappingURL=chat.css.map */
+/*# sourceMappingURL=chat.css.map */
+/*# sourceMappingURL=chat.css.map */
 
 /*# sourceMappingURL=chat.css.map */
