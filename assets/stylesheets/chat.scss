@@ -1,71 +1,19 @@
-@use 'main';
-
-.chat-item {
-    display: flex;
-    justify-content: space-between;
-    border-top: 2px solid black;
-    border-bottom: 2px solid black;
-    padding: 10px 0;
-}
-
 
 .chat-profile-img {
-    border-radius: 5px;
-    width: 15%;
-    height: auto;
+  width: 70px;
+  border-radius: 10px;
+}
+.chat-footer-menu {
+  background: #fff;
+  padding: 0  10px;
+  position: fixed;
+  display: flex;
+  justify-content: space-evenly;
+  bottom: 0;
+  z-index: 2;
+  width: 100%;
 }
 
-.chat-detail-link {
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-  
-  }
-
-  .chat-info {
-    margin-left: 20px;
-  }
-
-  .chat-info-name {
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;    
-  }
-
-.fa-circle {
-    color: green;
-    margin-left: 10px;
-  }
-
-  .time {
-    font-size: 0.8em;
-    margin-left: 250px;
-  }
-
-  .chat-message {
-    width: 250px;
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;  
-  }
-
-  .chat-footer-menu {
-    font-size: 4em;
-    z-index: 2;
-    display: flex;
-    justify-content: space-around;
-  }
-
-  .small-chat-menu {
-    display: none;
-  }
-
-@media (max-width: 1024px) {
-  .chat-menu {
-    display: none;
-  }
-  .small-chat-menu {
-    display: flex;
-  }
-
+.chat-menu {
+  display: none;
 }
