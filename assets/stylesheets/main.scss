@@ -135,9 +135,10 @@ body {
         z-index: 10;
         margin-top: -30px;
         padding: 20px;
+        border: none;
+        border-radius: 5px;
         background: $white;
         color: $mid-gray;
-        box-shadow: 2px 2px  2px 2px$gray;
     }
     
 }
@@ -155,6 +156,48 @@ body {
     display: none;
 }
 
+.user-info-small {
+    margin-top: 10px;
+    
+    .dim-text{
+        color: $mid-gray;
+    }
+    h4 {
+        font-size: 1.2em;
+        font-weight: bold;
+    }
+}
+
+.name-location {
+    display: flex;
+    justify-content: space-between;
+    padding:10px 40px;
+}
+
+.interests {
+    padding:10px 40px;
+}
+
+.languages {
+    padding:10px 40px;
+}
+
+.line {
+    height: 2px;
+    background: $mid-gray;
+    padding: -40px;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 10px 40px;
+    .present-img {
+        width: 10%;
+        margin-right: 20px;
+    }
+}
 
 
 @media screen and (min-width: 1024px) {
