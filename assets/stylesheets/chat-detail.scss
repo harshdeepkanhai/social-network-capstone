@@ -36,11 +36,11 @@ $font-stack: 'Open Sans', sans-serif;
 }
 
 .chat {
+    display:  block;
     margin-bottom: 80px;
 }
 
 .user-msg {
-    // position: absolute;
     display: flex;
     flex-direction: column;
     align-items: flex-end;;
@@ -98,5 +98,25 @@ $font-stack: 'Open Sans', sans-serif;
     background: #c3c4c7;
     &::placeholder {
         color: white;
+    }
+}
+
+.user-detail {
+    display: none;
+}
+
+@media screen and (min-width: 1024px) {
+    .main {
+        display: flex;
+    }
+    .nav {
+        display: none;
+    }
+
+    .user-detail {
+        display: block;
+        margin-top: 20px;
+        margin-left: 80px;
+        max-width: 33.3333%;
     }
 }

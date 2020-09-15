@@ -8,6 +8,7 @@
     <title>Document</title>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap"
         rel="stylesheet">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <script src="https://kit.fontawesome.com/0a40564409.js"
         crossorigin="anonymous"></script>
     <link rel="stylesheet" href="assets/stylesheets/main.css">
@@ -15,37 +16,62 @@
 
 <body>
     <header class="header">
-        <div class="col-4">
-            <i><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
-                version="1.1" id="ccnw" x="0px" y="0px" viewBox="0 0 512 512"
-                style="enable-background: new 0 0 512 512;" xml:space="preserve">
-                <g>
-                    <g>
-                        <path
-                            d="M256,160c-52.928,0-96,43.072-96,96s43.072,96,96,96c52.928,0,96-43.072,96-96C352,203.072,308.928,160,256,160z M256,320    c-35.296,0-64-28.704-64-64c0-35.296,28.704-64,64-64s64,28.704,64,64S291.296,320,256,320z" />
-                    </g>
-                </g>
-                <g>
-                    <g>
-                        <path
-                            d="M496,240h-48.8C439.456,146.88,365.12,72.544,272,64.8V16c0-8.832-7.168-16-16-16c-8.832,0-16,7.168-16,16v48.8    C146.88,72.544,72.544,146.912,64.8,240H16c-8.832,0-16,7.168-16,16c0,8.832,7.168,16,16,16h48.8    c7.744,93.12,82.08,167.456,175.2,175.2V496c0,8.832,7.168,16,16,16c8.832,0,16-7.168,16-16v-48.8    c93.12-7.744,167.456-82.08,175.2-175.2H496c8.832,0,16-7.136,16-16C512,247.2,504.832,240,496,240z M256,416    c-88.224,0-160-71.776-160-160S167.776,96,256,96s160,71.776,160,160S344.224,416,256,416z" />
-                    </g>
-                </g>
-            </svg></i> Location:<span class="gray-font">London</span>
+        <div class="nav-icons-lg">
+            <i class="far fa-compass"></i>Location:<span class="gray-font">London</span>
         </div>
-        <div class="col-sm-4"><i class="fas fa-bars"></i></div>
-        <div class="col-md-4">
+        <div class="nav-icons-sm"><i class="fas fa-bars"></i></div>
+        <div class="nav-logo">
             <h1><span class="purple-font">Swip</span><span class="orange-font">ex</span>
             </h1>
         </div>
-        <div class="col-4">
+        <div class="nav-icons-lg">
             <i class="far fa-list-alt user-icons fa-lg"></i>&nbsp; &nbsp;
             <i class="far fa-bell fa-lg"></i>&nbsp; &nbsp;|&nbsp;&nbsp; <i
                 class="fas fa-user-circle fa-lg"></i>
         </div>
-        <div class="col-sm-4"><i class="far fa-bell fa-lg"></i></div>
+        <div class="nav-icons-sm"><i class="far fa-bell fa-lg"></i></div>
     </header>
     <main class="main">
+        <div class="img-gallery">
+            <div class="selected-img">
+                <img class="img-icon" src="https://source.unsplash.com/UoToEUc7aSg" alt="girl with glasses"> <span class="circle"><span class="x">x</span></span>
+            </div>
+            <i class="fa fa-ellipsis-v"></i>
+            <div class="img-icon"><img class="img-icon" src="https://source.unsplash.com/UoToEUc7aSg" alt="girl with glasses"></div>
+            <div class="img-icon"><img class="img-icon" src="https://source.unsplash.com/UoToEUc7aSg" alt="girl with glasses"></div>
+            <div class="img-icon"><img class="img-icon" src="https://source.unsplash.com/UoToEUc7aSg" alt="girl with glasses">  </div>
+            <div class="img-icon"><img class="img-icon" src="https://source.unsplash.com/UoToEUc7aSg" alt="girl with glasses"></div>
+            <div class="img-icon icon-hide"><img class="img-icon" src="https://source.unsplash.com/UoToEUc7aSg" alt="girl with glasses"></div>
+            <div class="img-icon icon-hide"><img class="img-icon" src="https://source.unsplash.com/UoToEUc7aSg" alt="girl with glasses"></div>
+            <div class="img-icon icon-hide"><img class="img-icon" src="https://source.unsplash.com/UoToEUc7aSg" alt="girl with glasses"></div>
+            <div class="img-icon icon-hide"><img class="img-icon" src="https://source.unsplash.com/UoToEUc7aSg" alt="girl with glasses"></div>
+            <div class="img-icon icon-hide"><img class="img-icon" src="https://source.unsplash.com/UoToEUc7aSg" alt="girl with glasses"></div>
+        </div>
+        <div class="main-img">
+            <i class="fas fa-arrow-left fa-2x"></i>
+            <div class="scroll">
+                <div class="square"></div>
+                <div class="square"></div>
+                <div class="square orange"></div>
+                <div class="square"></div>
+            </div>
+            </div>
+        </div>
+        <div class="buttons"><button class="btn" type="button">
+            <i class="fas fa-chevron-left fa-lg"></i>
+        </button>
+        <button class="btn purple-bg" type="button">
+            <i class="fas fa-heart fa-lg"></i>
+        </button>
+        <button class="btn orange-bg" type="button">
+            <i class="fas fa-times fa-lg"></i>
+        </button>
+        <button class="btn" type="button">
+            <i class="fas fa-chevron-right fa-lg"></i>
+        </button>
+
+    </main>
+    <!-- <main class="main">
         <div class="col-left-user">
             <div class="user-profile">
                 <img class="user-profile-img" src="https://source.unsplash.com/Dx6M3yXK8ak" alt="user">
@@ -128,7 +154,11 @@
                 
                 </div>
         </div>
-    </main>
+    </main> -->
+    <!-- Bootstrap JS Files -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
 </body>
 
 </html>
