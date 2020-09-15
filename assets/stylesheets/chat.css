@@ -1,23 +1,62 @@
-.chat-profile-img {
-  width: 70px;
-  border-radius: 10px;
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
 }
 
-.chat-footer-menu {
-  background: #fff;
-  padding: 0 10px;
-  position: fixed;
-  display: flex;
-  justify-content: space-evenly;
-  bottom: 0;
-  z-index: 2;
-  width: 100%;
+body {
+  background: #e2e2e2;
 }
 
-.chat-menu {
+.header {
   display: none;
 }
 
+.nav-mob {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  padding: 20px;
+  background: #fff;
+  position: sticky;
+  top: 0;
+  width: 100%;
+  z-index: 10;
+}
+
+.chat-box {
+  display: flex;
+  flex-wrap: nowrap;
+  margin: 10px;
+  background: #fff;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.chat-box img {
+  width: 50px;
+  height: 50px;
+  border-radius: 5px;
+}
+
+.chat-box .chat-msg {
+  margin-left: 10px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.chat-box .chat-msg .msg {
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/*# sourceMappingURL=chat.css.map */
+/*# sourceMappingURL=chat.css.map */
+/*# sourceMappingURL=chat.css.map */
+/*# sourceMappingURL=chat.css.map */
+/*# sourceMappingURL=chat.css.map */
+/*# sourceMappingURL=chat.css.map */
 /*# sourceMappingURL=chat.css.map */
 
 /*# sourceMappingURL=chat.css.map */
