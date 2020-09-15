@@ -35,6 +35,10 @@ body {
     }
 }
 
+.pic-info {
+    display: none;
+}
+
 .purple-font {
     color: $purple;
 }
@@ -85,9 +89,6 @@ body {
     width: 50px;
 }
 
-.icon-hide {
-    display: none;
-}
 
 .img-gallery {
     display: none;
@@ -199,6 +200,10 @@ body {
     }
 }
 
+.user-detail {
+    display: none;
+}
+
 
 @media screen and (min-width: 1024px) {
     .header {
@@ -207,6 +212,70 @@ body {
         align-items: center;
         background: $white;
         margin-bottom: 10px;
+    }
+
+    .main {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .mid {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .user-detail {
+        display: block;
+        margin-top: 20px;
+        margin-left: 80px;
+        // max-width: 33.3333%;
+        // flex: 0.5;
+    }
+
+    .user-profile {
+        display: flex;
+        background: #fff;
+        padding: 20px;
+        border-radius: 10px;
+        color: #706c6c;
+        justify-content: space-between;
+        align-items: center;
+        .user-profile-img {
+            width: 100px;
+            border-radius: 5px;
+        }
+    }
+
+    .user-extra-info {
+        margin-top: -20px;
+        padding-bottom: 10px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        background: #fff;
+        .likes {
+            color: $orange;
+        }
+        .btn-premium {
+            border: none;
+            background: $purple;
+            color: white;
+            padding: 10px 30px;
+            border-radius: 5px;
+        }
+    }
+
+    .menu {
+        margin-top: 20px;
+        ul {
+            list-style: none;
+            .menu-link {
+                margin: 20px;
+                text-decoration: none;
+                font-size: 1.2em;
+                color: #9796a1;
+            }
+        }
     }
 
     .nav-icons-lg {
@@ -221,8 +290,46 @@ body {
     .main-img {
         background-position: center;
         background-size: auto;
-        height: 100vh;
+        height: calc(100vh - 200px);
+        width: 100%;
+        border-radius: 20px;
     }
 
+    .img-gallery {
+        display: flex;
+    }
+
+    .user-info-small {
+        display: none;
+    }
+
+    .buttons {
+        justify-content: space-evenly;
+        margin: -50px auto;
+    }
+
+    .pic-info {
+        display: block;
+        .flex {
+            padding: 10px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            img {
+                width: 100px;
+            }
+            .text {
+                margin-left: 20px;
+                h4 {
+                    font-size: 1.2em;
+                    font-weight: bold;
+                }
+                .dim-text {
+                    color: $mid-gray;
+                }
+            }
+            
+        }
+    }
    
 }
