@@ -3,25 +3,24 @@ $orange: #f0916e;
 $gray: #414464;
 $mid-gray: #a1a1a1;
 $light-gray: #f9f9f9;
-$white: #ffffff;
+$white: #fff;
 $lighter-gray: #fafafa;
 $font-stack: 'Open Sans', sans-serif;
 
 * {
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
 }
 
 body {
-    background-color: $lighter-gray;
-    font-family: $font-stack;
+  background-color: $lighter-gray;
+  font-family: $font-stack;
 }
 
 .header {
   display: none;
 }
-
 
 .nav-mob {
   display: flex;
@@ -35,9 +34,9 @@ body {
   z-index: 10;
 }
 
-  .chat-list {
-    overflow-y: scroll;
-  }
+.chat-list {
+  overflow-y: scroll;
+}
 
 .chat-box {
   display: flex;
@@ -46,21 +45,25 @@ body {
   background: #fff;
   padding: 10px;
   border-radius: 5px;
+
   img {
     width: 50px;
     height: 50px;
     border-radius: 5px;
   }
+
   .chat-msg {
     margin-left: 10px;
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
+
     .msg {
-    overflow: hidden;
-    text-overflow: ellipsis;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
   }
-  }
+
   &:last-child {
     margin-bottom: 80px;
   }
@@ -73,20 +76,23 @@ body {
   display: flex;
   background: #fff;
   justify-content: space-around;
+
   .foot-btn {
     padding: 20px;
     border: none;
     background: #fff;
     width: 100%;
+
     &:focus {
       outline: none;
-
     }
+
     &:hover {
       background: #4e50b831;
       color: white;
       border-top: 1px solid $purple;
     }
+
     &:active {
       background: #4e50b831;
       color: white;
@@ -94,7 +100,6 @@ body {
     }
   }
 }
-
 
 @media screen and (min-width: 1024px) {
 
