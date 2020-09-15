@@ -5,7 +5,8 @@
 }
 
 body {
-  background: #e2e2e2;
+  background-color: #fafafa;
+  font-family: "Open Sans", sans-serif;
 }
 
 .header {
@@ -22,6 +23,10 @@ body {
   top: 0;
   width: 100%;
   z-index: 10;
+}
+
+.chat-list {
+  overflow-y: scroll;
 }
 
 .chat-box {
@@ -51,12 +56,42 @@ body {
   text-overflow: ellipsis;
 }
 
-/*# sourceMappingURL=chat.css.map */
-/*# sourceMappingURL=chat.css.map */
-/*# sourceMappingURL=chat.css.map */
-/*# sourceMappingURL=chat.css.map */
-/*# sourceMappingURL=chat.css.map */
-/*# sourceMappingURL=chat.css.map */
+.chat-box:last-child {
+  margin-bottom: 80px;
+}
+
+.footer {
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  display: flex;
+  background: #fff;
+  justify-content: space-around;
+}
+
+.footer .foot-btn {
+  padding: 20px;
+  border: none;
+  background: #fff;
+  width: 100%;
+}
+
+.footer .foot-btn:focus {
+  outline: none;
+}
+
+.footer .foot-btn:hover {
+  background: #4e50b831;
+  color: white;
+  border-top: 1px solid #4e50b8;
+}
+
+.footer .foot-btn:active {
+  background: #4e50b831;
+  color: white;
+  border-top: 1px solid #4e50b8;
+}
+
 /*# sourceMappingURL=chat.css.map */
 
 /*# sourceMappingURL=chat.css.map */
