@@ -237,7 +237,7 @@ body {
   flex-direction: column;
   padding: 10px;
   overflow: scroll;
-  margin-top: 100px;
+  margin-top: 10px;
 }
 
 .chat {
@@ -320,11 +320,74 @@ body {
     display: none;
   }
 
+  .header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: #fff;
+    margin-bottom: 10px;
+  }
+
   .user-detail {
     display: block;
     margin-top: 20px;
     margin-left: 80px;
     max-width: 33.3333%;
+  }
+
+  .chat-detail {
+    display: none;
+  }
+
+  .user-profile {
+    display: flex;
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    color: #706c6c;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .user-profile .user-profile-img {
+    width: 100px;
+    border-radius: 5px;
+  }
+
+  .user-extra-info {
+    margin-top: -20px;
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: #fff;
+  }
+
+  .user-extra-info .likes {
+    color: #f0916e;
+  }
+
+  .user-extra-info .btn-premium {
+    border: none;
+    background: #4e50b8;
+    color: white;
+    padding: 10px 30px;
+    border-radius: 5px;
+  }
+
+  .menu {
+    margin-top: 20px;
+  }
+
+  .menu ul {
+    list-style: none;
+  }
+
+  .menu ul .menu-link {
+    margin: 20px;
+    text-decoration: none;
+    font-size: 1.2em;
+    color: #9796a1;
   }
 }
 /*# sourceMappingURL=chat-detail.css.map */
