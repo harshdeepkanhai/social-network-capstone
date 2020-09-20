@@ -333,6 +333,7 @@ body {
 
   .pic-info {
     display: block;
+    width: 25%;
 
     .flex {
       padding: 10px;
@@ -357,5 +358,43 @@ body {
         }
       }
     }
+  }
+
+  .btn-purchase {
+    background: $purple;
+    color: white;
+    border: none;
+    padding: 5px;
+    width: 90%;
+    border-radius: 5px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+  }
+
+  .filter {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    padding: 10px;
+  }
+
+  .user-info-extra {
+    margin-top: 20px;
+    .dim-text {
+      color: $mid-gray;
+    }
+      .dim-text,h4, h5 {
+        padding: 10px;
+      }
+
+      .btn-extra-info {
+        width: 90%;
+        margin: 10px auto;
+        border: none;
+        padding: 10px;
+        border-radius: 5px;
+        color: white;
+      }
   }
 }

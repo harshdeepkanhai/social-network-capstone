@@ -319,6 +319,7 @@ body {
 
   .pic-info {
     display: block;
+    width: 25%;
   }
 
   .pic-info .flex {
@@ -343,6 +344,46 @@ body {
 
   .pic-info .flex .text .dim-text {
     color: #a1a1a1;
+  }
+
+  .btn-purchase {
+    background: #4e50b8;
+    color: white;
+    border: none;
+    padding: 5px;
+    width: 90%;
+    border-radius: 5px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+  }
+
+  .filter {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    padding: 10px;
+  }
+
+  .user-info-extra {
+    margin-top: 20px;
+  }
+
+  .user-info-extra .dim-text {
+    color: #a1a1a1;
+  }
+
+  .user-info-extra .dim-text, .user-info-extra h4, .user-info-extra h5 {
+    padding: 10px;
+  }
+
+  .user-info-extra .btn-extra-info {
+    width: 90%;
+    margin: 10px auto;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
   }
 }
 .nav {
@@ -625,8 +666,6 @@ body {
     color: white;
   }
 }
-/*# sourceMappingURL=chat-detail.css.map */
-/*# sourceMappingURL=chat-detail.css.map */
 /*# sourceMappingURL=chat-detail.css.map */
 
 /*# sourceMappingURL=chat-detail.css.map */
