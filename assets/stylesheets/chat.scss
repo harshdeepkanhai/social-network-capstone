@@ -9,21 +9,6 @@ $white: #fff;
 $lighter-gray: #fafafa;
 $font-stack: 'Open Sans', sans-serif;
 
-* {
-  box-sizing: border-box;
-  padding: 0;
-  margin: 0;
-}
-
-body {
-  background-color: $lighter-gray;
-  font-family: $font-stack;
-}
-
-.header {
-  display: none;
-}
-
 .nav-mob {
   display: flex;
   justify-content: space-between;
@@ -38,6 +23,10 @@ body {
 
 .chat-list {
   overflow-y: scroll;
+
+  h2 {
+    display: none;
+  }
 }
 
 .chat-box {
@@ -115,10 +104,14 @@ body {
   .chat-list {
     height: 80vh;
     overflow-y: scroll;
+
+    h2 {
+      display: none;
+    }
   }
 
   .chat-detail {
-    display:flex;
+    display: flex;
     justify-content: center;
     align-items: center;
     width: 33%;
@@ -128,7 +121,6 @@ body {
     justify-self: center;
   }
 
-
   .fa-sms {
     place-items: center;
     width: 100%;
@@ -136,6 +128,7 @@ body {
     font-size: 10rem;
     color: #eff0f2;
   }
+
   .footer {
     display: none;
   }

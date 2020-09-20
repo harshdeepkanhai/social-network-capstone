@@ -331,6 +331,29 @@ body {
     margin: -50px auto;
   }
 
+  .user-info-extra {
+    margin-top: 20px;
+
+    .dim-text {
+      color: $mid-gray;
+    }
+
+    .dim-text,
+    h4,
+    h5 {
+      padding: 10px;
+    }
+
+    .btn-extra-info {
+      width: 90%;
+      margin: 10px auto;
+      border: none;
+      padding: 10px;
+      border-radius: 5px;
+      color: white;
+    }
+  }
+
   .pic-info {
     display: block;
     width: 25%;
@@ -377,24 +400,5 @@ body {
     align-items: center;
     margin-top: 20px;
     padding: 10px;
-  }
-
-  .user-info-extra {
-    margin-top: 20px;
-    .dim-text {
-      color: $mid-gray;
-    }
-      .dim-text,h4, h5 {
-        padding: 10px;
-      }
-
-      .btn-extra-info {
-        width: 90%;
-        margin: 10px auto;
-        border: none;
-        padding: 10px;
-        border-radius: 5px;
-        color: white;
-      }
   }
 }

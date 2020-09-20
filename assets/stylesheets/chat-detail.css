@@ -317,6 +317,29 @@ body {
     margin: -50px auto;
   }
 
+  .user-info-extra {
+    margin-top: 20px;
+  }
+
+  .user-info-extra .dim-text {
+    color: #a1a1a1;
+  }
+
+  .user-info-extra .dim-text,
+.user-info-extra h4,
+.user-info-extra h5 {
+    padding: 10px;
+  }
+
+  .user-info-extra .btn-extra-info {
+    width: 90%;
+    margin: 10px auto;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+  }
+
   .pic-info {
     display: block;
     width: 25%;
@@ -363,27 +386,6 @@ body {
     align-items: center;
     margin-top: 20px;
     padding: 10px;
-  }
-
-  .user-info-extra {
-    margin-top: 20px;
-  }
-
-  .user-info-extra .dim-text {
-    color: #a1a1a1;
-  }
-
-  .user-info-extra .dim-text, .user-info-extra h4, .user-info-extra h5 {
-    padding: 10px;
-  }
-
-  .user-info-extra .btn-extra-info {
-    width: 90%;
-    margin: 10px auto;
-    border: none;
-    padding: 10px;
-    border-radius: 5px;
-    color: white;
   }
 }
 .nav {
@@ -670,6 +672,12 @@ body {
     color: white;
   }
 }
+/*# sourceMappingURL=chat-detail.css.map */
+/*# sourceMappingURL=chat-detail.css.map */
+/*# sourceMappingURL=chat-detail.css.map */
+/*# sourceMappingURL=chat-detail.css.map */
+/*# sourceMappingURL=chat-detail.css.map */
+/*# sourceMappingURL=chat-detail.css.map */
 /*# sourceMappingURL=chat-detail.css.map */
 
 /*# sourceMappingURL=chat-detail.css.map */
