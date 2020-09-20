@@ -326,8 +326,8 @@ body {
   }
 
   .user-info-extra .dim-text,
-.user-info-extra h4,
-.user-info-extra h5 {
+  .user-info-extra h4,
+  .user-info-extra h5 {
     padding: 10px;
   }
 
@@ -388,6 +388,7 @@ body {
     padding: 10px;
   }
 }
+
 .nav-mob {
   display: flex;
   justify-content: space-between;
@@ -512,12 +513,3 @@ body {
     display: none;
   }
 }
-/*# sourceMappingURL=chat.css.map */
-/*# sourceMappingURL=chat.css.map */
-/*# sourceMappingURL=chat.css.map */
-/*# sourceMappingURL=chat.css.map */
-/*# sourceMappingURL=chat.css.map */
-/*# sourceMappingURL=chat.css.map */
-/*# sourceMappingURL=chat.css.map */
-
-/*# sourceMappingURL=chat.css.map */
