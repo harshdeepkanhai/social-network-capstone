@@ -1,3 +1,5 @@
+@use 'main';
+
 $purple: #4e50b8;
 $orange: #f0916e;
 $gray: #414464;
@@ -98,5 +100,43 @@ body {
       color: white;
       border-top: 1px solid $purple;
     }
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .header {
+    display: flex;
+  }
+
+  .nav-mob {
+    display: none;
+  }
+
+  .chat-list {
+    height: 80vh;
+    overflow-y: scroll;
+  }
+
+  .chat-detail {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width: 33%;
+    height: 100%;
+    overflow: hidden;
+    align-self: center;
+    justify-self: center;
+  }
+
+
+  .fa-sms {
+    place-items: center;
+    width: 100%;
+    height: 100%;
+    font-size: 10rem;
+    color: #eff0f2;
+  }
+  .footer {
+    display: none;
   }
 }

@@ -1,12 +1,16 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# Social Network - Swipex
 
-> One paragraph statement about the project.
+>  A social network dating app Swipex built using HTML CSS 
 
 ![screenshot](./app_screenshot.png)
 
-Additional description about the project and its features.
+There are three pages in both desktop and (mobile/tablet) view
+ 
+ - main page: here the user can see his info, select a date from a list of many users and get distance and detals about her
+ - chat page: here the user can see all the chats between different user
+ - chat detail page: here the user can see chat details and message to a particular user.
 
 ## Built With
 
@@ -16,7 +20,7 @@ Additional description about the project and its features.
 
 ## Live Demo
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://raw.githack.com/harshdeepkanhai/social-network-capstone/feature2/index.html)
 
 
 ## Getting Started
@@ -32,12 +36,11 @@ To get a local copy up and running follow these simple example steps.
 
 ## Authors
 
-👤 **Author1**
+👤 **K**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/linkedinhandle)
-
+- Github: [@harshdeepkanhai](https://github.com/harshdeepkanhai)
+- Twitter: [@harshdeepkanhai](https://twitter.com/harshdeepkanhai)
+- Linkedin: [harshdeepkanhai](https://www.linkedin.com/in/harshdeepkanhai)
 
 ## 🤝 Contributing
 

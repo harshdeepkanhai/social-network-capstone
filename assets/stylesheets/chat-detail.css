@@ -604,6 +604,10 @@ body {
     width: 33.33%;
   }
 
+  .chat-detail .chat-det {
+    width: 100%;
+  }
+
   .user-msg {
     display: flex;
     flex-direction: column;
@@ -640,7 +644,7 @@ body {
     justify-content: space-evenly;
     align-items: center;
     padding: 20px;
-    width: 100%;
+    width: 33.33%;
     position: fixed;
     bottom: 0;
     background: #fff;
