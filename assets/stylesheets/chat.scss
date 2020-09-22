@@ -31,11 +31,12 @@ $font-stack: 'Open Sans', sans-serif;
 
 .menu-sm {
   display: none;
+
   ul li {
     text-decoration: none;
     list-style: none;
     font-size: 0.5em;
-    margin: 30px
+    margin: 30px;
   }
 }
 
@@ -48,9 +49,8 @@ $font-stack: 'Open Sans', sans-serif;
   opacity: 0;
 }
 
-.checkbox:checked + .menu-sm  {
+.checkbox:checked + .menu-sm {
   display: flex;
-
 }
 
 .chat-box {
