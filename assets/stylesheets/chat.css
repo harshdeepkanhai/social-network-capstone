@@ -330,8 +330,8 @@ a:hover {
   }
 
   .user-info-extra .dim-text,
-.user-info-extra h4,
-.user-info-extra h5 {
+  .user-info-extra h4,
+  .user-info-extra h5 {
     padding: 10px;
   }
 
@@ -392,6 +392,7 @@ a:hover {
     padding: 10px;
   }
 }
+
 .nav-mob {
   display: flex;
   justify-content: space-between;
@@ -416,11 +417,11 @@ a:hover {
   display: none;
 }
 
-.menu-sm ul li {
+.menu-sm .links {
   text-decoration: none;
   list-style: none;
   font-size: 0.5em;
-  margin: 30px;
+  margin: 20px;
 }
 
 .checkbox {
@@ -540,49 +541,3 @@ a:hover {
     display: none;
   }
 }
-/*# sourceMappingURL=chat.css.map */
-/*# sourceMappingURL=chat.css.map */
-/*# sourceMappingURL=chat.css.map */
-/*# sourceMappingURL=chat.css.map */
-/*# sourceMappingURL=chat.css.map */
-/*# sourceMappingURL=chat.css.map */
-/*# sourceMappingURL=chat.css.map */
-/*# sourceMappingURL=chat.css.map */
-/*# sourceMappingURL=chat.css.map */
-/*# sourceMappingURL=chat.css.map */
-/*# sourceMappingURL=chat.css.map */
-/*# sourceMappingURL=chat.css.map */
-/*# sourceMappingURL=chat.css.map */
-/*# sourceMappingURL=chat.css.map */
-/*# sourceMappingURL=chat.css.map */
-/*# sourceMappingURL=chat.css.map */
-/*# sourceMappingURL=chat.css.map */
-/*# sourceMappingURL=chat.css.map */
-/*# sourceMappingURL=chat.css.map */
-/*# sourceMappingURL=chat.css.map */
-/*# sourceMappingURL=chat.css.map */
-/*# sourceMappingURL=chat.css.map */
-/*# sourceMappingURL=chat.css.map */
-/*# sourceMappingURL=chat.css.map */
-/*# sourceMappingURL=chat.css.map */
-/*# sourceMappingURL=chat.css.map */
-/*# sourceMappingURL=chat.css.map */
-/*# sourceMappingURL=chat.css.map */
-/*# sourceMappingURL=chat.css.map */
-/*# sourceMappingURL=chat.css.map */
-/*# sourceMappingURL=chat.css.map */
-/*# sourceMappingURL=chat.css.map */
-/*# sourceMappingURL=chat.css.map */
-/*# sourceMappingURL=chat.css.map */
-/*# sourceMappingURL=chat.css.map */
-/*# sourceMappingURL=chat.css.map */
-/*# sourceMappingURL=chat.css.map */
-/*# sourceMappingURL=chat.css.map */
-/*# sourceMappingURL=chat.css.map */
-/*# sourceMappingURL=chat.css.map */
-/*# sourceMappingURL=chat.css.map */
-/*# sourceMappingURL=chat.css.map */
-/*# sourceMappingURL=chat.css.map */
-/*# sourceMappingURL=chat.css.map */
-
-/*# sourceMappingURL=chat.css.map */
