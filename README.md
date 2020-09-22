@@ -21,6 +21,8 @@ There are three pages in both desktop and (mobile/tablet) view
 ## Live Demo
 
 [Live Demo Link](https://raw.githack.com/harshdeepkanhai/social-network-capstone/feature2/index.html)
+[Live Demo Chat Page](https://raw.githack.com/harshdeepkanhai/social-network-capstone/feature2/chats.html)
+[Live Demo Chat Detail Page](https://raw.githack.com/harshdeepkanhai/social-network-capstone/feature2/chat-detail.html)
 
 
 ## Getting Started
