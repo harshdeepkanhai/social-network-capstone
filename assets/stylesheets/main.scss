@@ -21,6 +21,10 @@ body {
   font-family: $font-stack;
 }
 
+a:hover {
+  text-decoration: none;
+}
+
 .nav-icons-lg {
   display: none;
 }

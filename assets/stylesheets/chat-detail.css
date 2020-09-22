@@ -9,6 +9,10 @@ body {
   font-family: "Open Sans", sans-serif;
 }
 
+a:hover {
+  text-decoration: none;
+}
+
 .nav-icons-lg {
   display: none;
 }
@@ -672,16 +676,6 @@ body {
     color: white;
   }
 }
-/*# sourceMappingURL=chat-detail.css.map */
-/*# sourceMappingURL=chat-detail.css.map */
-/*# sourceMappingURL=chat-detail.css.map */
-/*# sourceMappingURL=chat-detail.css.map */
-/*# sourceMappingURL=chat-detail.css.map */
-/*# sourceMappingURL=chat-detail.css.map */
-/*# sourceMappingURL=chat-detail.css.map */
-/*# sourceMappingURL=chat-detail.css.map */
-/*# sourceMappingURL=chat-detail.css.map */
-/*# sourceMappingURL=chat-detail.css.map */
 /*# sourceMappingURL=chat-detail.css.map */
 /*# sourceMappingURL=chat-detail.css.map */
 

@@ -9,6 +9,10 @@ body {
   font-family: "Open Sans", sans-serif;
 }
 
+a:hover {
+  text-decoration: none;
+}
+
 .nav-icons-lg {
   display: none;
 }
@@ -408,6 +412,30 @@ body {
   display: none;
 }
 
+.menu-sm {
+  display: none;
+}
+
+.menu-sm ul li {
+  text-decoration: none;
+  list-style: none;
+  font-size: 0.5em;
+  margin: 30px;
+}
+
+.checkbox {
+  top: 20px;
+  left: 20px;
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  opacity: 0;
+}
+
+.checkbox:checked + .menu-sm {
+  display: flex;
+}
+
 .chat-box {
   display: flex;
   flex-wrap: nowrap;
@@ -512,17 +540,6 @@ body {
     display: none;
   }
 }
-/*# sourceMappingURL=chat.css.map */
-/*# sourceMappingURL=chat.css.map */
-/*# sourceMappingURL=chat.css.map */
-/*# sourceMappingURL=chat.css.map */
-/*# sourceMappingURL=chat.css.map */
-/*# sourceMappingURL=chat.css.map */
-/*# sourceMappingURL=chat.css.map */
-/*# sourceMappingURL=chat.css.map */
-/*# sourceMappingURL=chat.css.map */
-/*# sourceMappingURL=chat.css.map */
-/*# sourceMappingURL=chat.css.map */
 /*# sourceMappingURL=chat.css.map */
 
 /*# sourceMappingURL=chat.css.map */
