@@ -116,6 +116,10 @@ $font-stack: 'Open Sans', sans-serif;
   }
 }
 
+.search {
+  display: none;
+}
+
 @media screen and (min-width: 1024px) {
   .header {
     display: flex;
@@ -143,14 +147,39 @@ $font-stack: 'Open Sans', sans-serif;
     overflow: hidden;
     align-self: center;
     justify-self: center;
+
+    .fa-sms {
+      place-items: center;
+      width: 100%;
+      height: 100%;
+      font-size: 10rem;
+      color: #eff0f2;
+    }
   }
 
-  .fa-sms {
-    place-items: center;
-    width: 100%;
-    height: 100%;
-    font-size: 10rem;
-    color: #eff0f2;
+  .chat-list-container {
+    border: 1px solid white;
+  }
+
+  .search {
+    display: flex;
+    position: relative;
+    justify-content: space-around;
+    background: white;
+    padding: 10px;
+    align-items: center;
+
+    input {
+      padding: 10px;
+      border: none;
+      background-color: $light-gray;
+      padding-left: 50px;
+    }
+
+    .fa-search {
+      position: absolute;
+      left: 40px;
+    }
   }
 
   .footer {

@@ -108,6 +108,10 @@ $font-stack: 'Open Sans', sans-serif;
   display: none;
 }
 
+.nav-sm {
+  display: none;
+}
+
 @media screen and (min-width: 1024px) {
   .main {
     display: flex;
@@ -116,6 +120,21 @@ $font-stack: 'Open Sans', sans-serif;
 
   .nav {
     display: none;
+  }
+
+  .chat-detail-container {
+    width: 33.33%;
+    padding-top: 10px;
+    border: 1px solid white;
+  }
+
+  .nav-sm {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background: #fff;
+    padding: 20px;
+    top: 0;
   }
 
   .header {
@@ -185,7 +204,8 @@ $font-stack: 'Open Sans', sans-serif;
   }
 
   .chat-list {
-    display: block;
+    display: flex;
+    flex-direction: column;
     overflow: scroll;
     height: 80vh;
 
@@ -221,9 +241,34 @@ $font-stack: 'Open Sans', sans-serif;
     }
   }
 
+  .chat-list-container {
+    border: 1px solid white;
+  }
+
+  .search {
+    display: flex;
+    position: relative;
+    justify-content: space-around;
+    background: white;
+    padding: 10px;
+    align-items: center;
+
+    input {
+      padding: 10px;
+      border: none;
+      background-color: $light-gray;
+      padding-left: 50px;
+    }
+
+    .fa-search {
+      position: absolute;
+      left: 40px;
+    }
+  }
+
   .chat-detail {
     display: flex;
-    width: 33.33%;
+    width: 100%;
 
     .chat-det {
       width: 100%;

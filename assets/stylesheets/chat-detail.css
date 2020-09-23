@@ -79,6 +79,7 @@ a:hover {
   position: relative;
   border-radius: 0 0 20px 20px;
   height: 60vh;
+  width: 100%;
   background: url("https://source.unsplash.com/UoToEUc7aSg");
   background-position: center;
   background-repeat: no-repeat;
@@ -200,17 +201,16 @@ a:hover {
   .main {
     display: flex;
     justify-content: space-around;
+    padding: 20px 20px;
   }
 
   .mid {
-    margin-left: 10px;
-    margin-right: 10px;
+    flex: 2;
   }
 
   .user-detail {
     display: block;
-    margin-top: 20px;
-    margin-left: 80px;
+    width: 25vw;
   }
 
   .user-profile {
@@ -281,8 +281,12 @@ a:hover {
     list-style: none;
   }
 
-  .menu ul .menu-link {
-    margin: 20px;
+  .menu ul li {
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+
+  .menu .menu-link {
     text-decoration: none;
     font-size: 1.2em;
     color: #9796a1;
@@ -301,15 +305,17 @@ a:hover {
     background-position: center;
     background-size: auto;
     height: calc(100vh - 200px);
-    width: 100%;
+    width: 40vw;
     border-radius: 20px;
+    margin: 0 auto;
   }
 
   .img-gallery {
-    margin-top: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 40vw;
+    margin: 0 auto;
   }
 
   .user-info-small {
@@ -346,7 +352,7 @@ a:hover {
 
   .pic-info {
     display: block;
-    width: 25%;
+    width: 25vw;
   }
 
   .pic-info .flex {
@@ -357,7 +363,7 @@ a:hover {
   }
 
   .pic-info .flex img {
-    width: 100px;
+    width: 2vw;
   }
 
   .pic-info .flex .text {
@@ -493,6 +499,10 @@ a:hover {
   display: none;
 }
 
+.nav-sm {
+  display: none;
+}
+
 @media screen and (min-width: 1024px) {
   .main {
     display: flex;
@@ -501,6 +511,21 @@ a:hover {
 
   .nav {
     display: none;
+  }
+
+  .chat-detail-container {
+    width: 33.33%;
+    padding-top: 10px;
+    border: 1px solid white;
+  }
+
+  .nav-sm {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background: #fff;
+    padding: 20px;
+    top: 0;
   }
 
   .header {
@@ -570,7 +595,8 @@ a:hover {
   }
 
   .chat-list {
-    display: block;
+    display: flex;
+    flex-direction: column;
     overflow: scroll;
     height: 80vh;
   }
@@ -606,9 +632,34 @@ a:hover {
     margin-bottom: 80px;
   }
 
+  .chat-list-container {
+    border: 1px solid white;
+  }
+
+  .search {
+    display: flex;
+    position: relative;
+    justify-content: space-around;
+    background: white;
+    padding: 10px;
+    align-items: center;
+  }
+
+  .search input {
+    padding: 10px;
+    border: none;
+    background-color: #f9f9f9;
+    padding-left: 50px;
+  }
+
+  .search .fa-search {
+    position: absolute;
+    left: 40px;
+  }
+
   .chat-detail {
     display: flex;
-    width: 33.33%;
+    width: 100%;
   }
 
   .chat-detail .chat-det {
