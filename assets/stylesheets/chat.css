@@ -271,7 +271,7 @@ a:hover {
   }
 
   .nav-icons-sm,
-.user-info-small {
+  .user-info-small {
     display: none;
   }
 
@@ -304,8 +304,8 @@ a:hover {
   }
 
   .user-info-extra .dim-text,
-.user-info-extra h4,
-.user-info-extra h5 {
+  .user-info-extra h4,
+  .user-info-extra h5 {
     padding: 10px;
   }
 
@@ -365,6 +365,7 @@ a:hover {
     padding: 10px;
   }
 }
+
 .nav-mob {
   display: flex;
   justify-content: space-between;
@@ -542,11 +543,3 @@ a:hover {
     display: none;
   }
 }
-/*# sourceMappingURL=chat.css.map */
-/*# sourceMappingURL=chat.css.map */
-/*# sourceMappingURL=chat.css.map */
-/*# sourceMappingURL=chat.css.map */
-/*# sourceMappingURL=chat.css.map */
-/*# sourceMappingURL=chat.css.map */
-
-/*# sourceMappingURL=chat.css.map */
