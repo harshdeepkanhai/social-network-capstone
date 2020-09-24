@@ -4,7 +4,7 @@
 
 >  A social network dating app Swipex built using HTML CSS 
 
-![screenshot](./app_screenshot.png)
+![screenshot](./screenshot.png)
 
 There are three pages in both desktop and (mobile/tablet) view
  
@@ -20,9 +20,11 @@ There are three pages in both desktop and (mobile/tablet) view
 
 ## Live Demo
 
-[Live Demo Link](https://raw.githack.com/harshdeepkanhai/social-network-capstone/feature2/index.html)
-[Live Demo Chat Page](https://raw.githack.com/harshdeepkanhai/social-network-capstone/feature2/chats.html)
-[Live Demo Chat Detail Page](https://raw.githack.com/harshdeepkanhai/social-network-capstone/feature2/chat-detail.html)
+[Live Demo Link](https://raw.githack.com/harshdeepkanhai/social-network-capstone/master/index.html)
+
+[Live Demo Chat Page](https://raw.githack.com/harshdeepkanhai/social-network-capstone/master/chats.html)
+
+[Live Demo Chat Detail Page](https://raw.githack.com/harshdeepkanhai/social-network-capstone/master/chat-detail.html)
 
 
 ## Getting Started
@@ -32,7 +34,7 @@ To get a local copy up and running follow these simple example steps.
 ### Usage
 
 - Clone the repo
-- Run index.html
+- Run `index.html`
 
 
 
