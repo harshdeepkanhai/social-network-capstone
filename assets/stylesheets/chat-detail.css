@@ -13,17 +13,17 @@ a:hover {
   text-decoration: none;
 }
 
-.nav-icons-lg {
+.pic-info,
+.nav-icons-lg,
+.img-gallery,
+.header,
+.user-detail {
   display: none;
 }
 
 .nav-logo h1 {
   font-size: 3em;
   font-weight: bold;
-}
-
-.pic-info {
-  display: none;
 }
 
 .purple-font {
@@ -42,8 +42,6 @@ a:hover {
   position: relative;
   border-radius: 20px;
   margin: 5px;
-  display: flex;
-  align-items: center;
 }
 
 .circle {
@@ -69,12 +67,7 @@ a:hover {
   width: 50px;
 }
 
-.img-gallery {
-  display: none;
-}
-
 .main-img {
-  display: flex;
   justify-content: space-between;
   position: relative;
   border-radius: 0 0 20px 20px;
@@ -112,7 +105,6 @@ a:hover {
 }
 
 .buttons {
-  display: flex;
   justify-content: space-around;
 }
 
@@ -136,10 +128,6 @@ a:hover {
   color: #fff;
 }
 
-.header {
-  display: none;
-}
-
 .user-info-small {
   margin-top: 10px;
 }
@@ -154,7 +142,6 @@ a:hover {
 }
 
 .name-location {
-  display: flex;
   justify-content: space-between;
   padding: 10px 40px;
 }
@@ -174,8 +161,6 @@ a:hover {
 }
 
 .flex {
-  display: flex;
-  align-items: center;
   justify-content: flex-start;
   padding: 10px 40px;
 }
@@ -185,21 +170,19 @@ a:hover {
   margin-right: 20px;
 }
 
-.user-detail {
-  display: none;
-}
-
 @media screen and (min-width: 1024px) {
-  .header {
+  .d-flex-lg {
     display: flex;
-    justify-content: space-around;
     align-items: center;
+  }
+
+  .header {
+    justify-content: space-around;
     background: #fff;
     margin-bottom: 10px;
   }
 
   .main {
-    display: flex;
     justify-content: space-around;
     padding: 20px 20px;
   }
@@ -214,13 +197,11 @@ a:hover {
   }
 
   .user-profile {
-    display: flex;
     background: #fff;
     padding: 20px;
     border-radius: 10px;
     color: #706c6c;
     justify-content: space-between;
-    align-items: center;
   }
 
   .user-profile .user-profile-img {
@@ -234,7 +215,6 @@ a:hover {
   }
 
   .flex-menu {
-    display: flex;
     justify-content: space-between;
   }
 
@@ -255,9 +235,7 @@ a:hover {
   .user-extra-info {
     margin-top: -20px;
     padding-bottom: 10px;
-    display: flex;
     justify-content: space-around;
-    align-items: center;
     background: #fff;
   }
 
@@ -292,12 +270,8 @@ a:hover {
     color: #9796a1;
   }
 
-  .nav-icons-lg {
-    display: flex;
-    align-items: center;
-  }
-
-  .nav-icons-sm {
+  .nav-icons-sm,
+.user-info-small {
     display: none;
   }
 
@@ -311,15 +285,9 @@ a:hover {
   }
 
   .img-gallery {
-    display: flex;
     justify-content: center;
-    align-items: center;
     width: 40vw;
     margin: 0 auto;
-  }
-
-  .user-info-small {
-    display: none;
   }
 
   .buttons {
@@ -336,8 +304,8 @@ a:hover {
   }
 
   .user-info-extra .dim-text,
-  .user-info-extra h4,
-  .user-info-extra h5 {
+.user-info-extra h4,
+.user-info-extra h5 {
     padding: 10px;
   }
 
@@ -357,7 +325,6 @@ a:hover {
 
   .pic-info .flex {
     padding: 10px;
-    display: flex;
     flex-direction: row;
     justify-content: space-around;
   }
@@ -398,11 +365,9 @@ a:hover {
     padding: 10px;
   }
 }
-
 .nav {
   position: fixed;
   width: 100%;
-  display: flex;
   justify-content: space-between;
   background: #fff;
   padding: 20px;
@@ -410,9 +375,7 @@ a:hover {
 }
 
 .title {
-  display: flex;
   justify-content: space-between;
-  align-items: center;
 }
 
 .title .fa-circle {
@@ -421,7 +384,6 @@ a:hover {
 }
 
 .main {
-  display: flex;
   flex-direction: column;
   padding: 10px;
   overflow: scroll;
@@ -465,9 +427,7 @@ a:hover {
 }
 
 .chat-send {
-  display: flex;
   justify-content: space-evenly;
-  align-items: center;
   padding: 20px;
   width: 100%;
   position: fixed;
@@ -495,15 +455,20 @@ a:hover {
   color: white;
 }
 
-.chat-list {
-  display: none;
-}
-
+.chat-list,
 .nav-sm {
   display: none;
 }
 
 @media screen and (min-width: 1024px) {
+  .d-flex-lg {
+    display: flex;
+  }
+
+  .align-items-center-lg {
+    align-items: center;
+  }
+
   .main {
     display: flex;
     flex-direction: row;
@@ -521,7 +486,6 @@ a:hover {
 
   .nav-sm {
     width: 100%;
-    display: flex;
     justify-content: space-between;
     background: #fff;
     padding: 20px;
@@ -529,9 +493,7 @@ a:hover {
   }
 
   .header {
-    display: flex;
     justify-content: space-around;
-    align-items: center;
     background: #fff;
     margin-bottom: 10px;
   }
@@ -544,13 +506,11 @@ a:hover {
   }
 
   .user-profile {
-    display: flex;
     background: #fff;
     padding: 20px;
     border-radius: 10px;
     color: #706c6c;
     justify-content: space-between;
-    align-items: center;
   }
 
   .user-profile .user-profile-img {
@@ -561,9 +521,7 @@ a:hover {
   .user-extra-info {
     margin-top: -20px;
     padding-bottom: 10px;
-    display: flex;
     justify-content: space-around;
-    align-items: center;
     background: #fff;
   }
 
@@ -595,7 +553,6 @@ a:hover {
   }
 
   .chat-list {
-    display: flex;
     flex-direction: column;
     overflow: scroll;
     height: 80vh;
@@ -637,12 +594,10 @@ a:hover {
   }
 
   .search {
-    display: flex;
     position: relative;
     justify-content: space-around;
     background: white;
     padding: 10px;
-    align-items: center;
   }
 
   .search input {
@@ -728,3 +683,11 @@ a:hover {
     color: white;
   }
 }
+/*# sourceMappingURL=chat-detail.css.map */
+/*# sourceMappingURL=chat-detail.css.map */
+/*# sourceMappingURL=chat-detail.css.map */
+/*# sourceMappingURL=chat-detail.css.map */
+/*# sourceMappingURL=chat-detail.css.map */
+/*# sourceMappingURL=chat-detail.css.map */
+
+/*# sourceMappingURL=chat-detail.css.map */

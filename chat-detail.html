@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Swipex</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap"
         rel="stylesheet">
     <script src="https://kit.fontawesome.com/0a40564409.js"
@@ -13,14 +14,14 @@
 </head>
 
 <body>
-    <header class="header">
+    <header class="header d-flex-lg align-items-center-lg">
         <div class="nav-icons-lg">
             <i class="far fa-compass"></i>Location:<span
                 class="gray-font">London</span>
         </div>
         <div class="nav-icons-sm"><i class="fas fa-bars"></i></div>
         <div class="nav-logo">
-            <a href="/"><h1><span class="purple-font">Swip</span><span
+            <a href="index.html"><h1><span class="purple-font">Swip</span><span
                     class="orange-font">ex</span>
             </h1></a>   
         </div>
@@ -31,17 +32,17 @@
         </div>
         <div class="nav-icons-sm"><i class="far fa-bell fa-lg"></i></div>
     </header>
-    <nav class="nav">
-        <a href="/chats.html"><i
+    <nav class="nav d-flex">
+        <a href="chats.html"><i
                 class="fas fa-long-arrow-alt-left fa-lg"></i></a>
-        <div class="title">
+        <div class="title d-flex align-items-center">
             <h4>Meredith Palmer</h4><i class="fas fa-circle"></i>
         </div>
         <i class="fas fa-phone-alt fa-lg"></i>
     </nav>
-    <main class="main">
+    <main class="main d-flex">
         <div class="user-detail">
-            <div class="user-profile">
+            <div class="user-profile d-flex-lg align-items-center-lg">
                 <img class="user-profile-img"
                     src="https://source.unsplash.com/Dx6M3yXK8ak" alt="user">
                 <div class="user-info">
@@ -51,7 +52,7 @@
                 </div>
                 <i class="fas fa-cog fa-2x"></i>
             </div>
-            <div class="user-extra-info">
+            <div class="user-extra-info d-flex-lg align-items-center-lg">
                 <div class="likes">
                     <i class="far fa-heart"></i> 257 </div>
                 <button type="button" class="btn-premium"><i
@@ -60,11 +61,11 @@
             </div>
             <div class="menu">
                 <ul>
-                    <li><a class="menu-link" href="/"><i class="fas fa-users"></i>
+                    <li><a class="menu-link" href="index.html"><i class="fas fa-users"></i>
                     Begin Encounters</a></li>
-                    <li><a class="menu-link" href="/"><i class="fas fa-street-view"></i>&nbsp;&nbsp;People Nearby</a></li>
+                    <li><a class="menu-link" href="index.html"><i class="fas fa-street-view"></i>&nbsp;&nbsp;People Nearby</a></li>
                     <li><a class="menu-link flex-menu" href="#"><span><i class="fas fa-play"></i>&nbsp;&nbsp;Live Channels</span> <span class="gray-style">12</span></a></li>
-                    <li><a class="menu-link flex-menu" href="/chats.html"><span><i class="fas fa-sms"></i>&nbsp;&nbsp;Messages</span> <span class="orange-style">32</span></a></li>
+                    <li><a class="menu-link flex-menu" href="chats.html"><span><i class="fas fa-sms"></i>&nbsp;&nbsp;Messages</span> <span class="orange-style">32</span></a></li>
                     <li><a class="menu-link" href="#"><i class="fas fa-user-tag"></i>&nbsp;&nbsp;Featured Peoples</a></li>
                     <li><a class="menu-link flex-menu" href="#"><span><i class="fas fa-gift"></i>&nbsp;&nbsp;Gifts</span> <span class="orange-style">4</span></a></li>
                     <li><a class="menu-link" href="#"><i class="fas fa-star"></i>&nbsp;&nbsp;Rating of Popularity</a></li>
@@ -73,8 +74,8 @@
             </div>
         </div>
         <div class="chat-list-container">
-            <div class="search"><i class="fas fa-search fa-lg"></i><input type="text" placeholder="search"><i class="fas fa-edit fa-lg"></i></div>
-        <div class="chat-list">  
+            <div class="search d-flex-lg align-items-center-lg"><i class="fas fa-search fa-lg"></i><input type="text" placeholder="search"><i class="fas fa-edit fa-lg"></i></div>
+        <div class="chat-list d-flex-lg">  
             <div class="chat-box">
                 <img src="https://source.unsplash.com/gG70fyu3qsg" alt="girl">
                 <div class="chat-msg">
@@ -150,8 +151,8 @@
         </div>
     </div>
         <div class="chat-detail-container">
-            <nav class="nav-sm">
-                <a href="/chats.html"><i
+            <nav class="nav-sm d-flex-lg">
+                <a href="chats.html"><i
                         class="fas fa-long-arrow-alt-left fa-lg"></i></a>
                 <div class="title">
                     <h4>Meredith Palmer</h4><i class="fas fa-circle"></i>
@@ -210,7 +211,7 @@
                     <div class="time">1:16pm</div>
                 </div>
             </div>
-            <div class="chat-send">
+            <div class="chat-send d-flex align-items-center">
                 <i class="fas fa-paperclip fa-lg"></i>
                 <input class="input" type="text" placeholder="Your messsage">
                 <i class="fas fa-caret-square-up fa-lg"></i>
